@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Aplikasi Bioskop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page-one">
+        <div data-role="header">
+            <h1>Daftar Film</h1>
+            
+        </div>
+        <div data-role="collapsible" data-mini="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+                <h4>Pilih tanggal</h4>
+                <ul id="tanggal"  data-role="listview" data-mini="true">
+                    <input type="radio" name="radio-tanggal" id="25sept" value="25 September 2019" checked="checked">
+                    <label for="25sept">25 September 2019</label>
+                    <input type="radio" name="radio-tanggal" id="26sept" value="26 September 2019">
+                    <label for="26sept">26 September 2019</label>
+                    <input type="radio" name="radio-tanggal" id="27sept" value="27 September 2019">
+                    <label for="27sept">27 September 2019</label>
+                </ul>
+            </div>
+        
+        
+        <ul data-role="listview" id="list-film" data-filter="true" data-filter-placeholder="Cari judul film..." data-inset="true">
+         
+        </ul>
+
+    </div>
+    
+    <script src="js/app1.js" type="text/javascript"></script>
+    <script>Application.initApplication()</script>
+    </body>
+    
+	
+</html>

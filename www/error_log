@@ -1,0 +1,119 @@
+[23-Nov-2019 10:31:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:31:15 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:31:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:31:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:31:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:32:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:32:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:32:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:34:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:34:11 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:35:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[23-Nov-2019 10:37:27 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[24-Nov-2019 04:26:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 8
+[24-Nov-2019 04:28:37 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/pitihden/public_html/web_service.php on line 3
+[24-Nov-2019 04:28:37 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:28:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pitihden/public_html/koneksi.php:14) in /home/pitihden/public_html/web_service.php on line 11
+[24-Nov-2019 04:28:37 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/pitihden/public_html/web_service.php on line 13
+[24-Nov-2019 04:29:47 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/pitihden/public_html/web_service.php on line 3
+[24-Nov-2019 04:29:47 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:29:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pitihden/public_html/koneksi.php:14) in /home/pitihden/public_html/web_service.php on line 11
+[24-Nov-2019 04:29:47 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/pitihden/public_html/web_service.php on line 13
+[24-Nov-2019 04:36:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:36:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pitihden/public_html/koneksi.php:14) in /home/pitihden/public_html/web_service.php on line 11
+[24-Nov-2019 04:37:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:37:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:39:24 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:41:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 04:41:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/pitihden/public_html/web_service.php on line 5
+[24-Nov-2019 16:44:15 UTC] PHP Warning:  Use of undefined constant mhs - assumed 'mhs' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:44:15 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:46:41 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:46:42 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:46:43 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:49:19 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/pitihden/public_html/web_service.php on line 16
+[24-Nov-2019 16:49:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/pitihden/public_html/web_service.php on line 16
+[24-Nov-2019 16:50:31 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/pitihden/public_html/web_service.php on line 16
+[24-Nov-2019 16:51:43 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:43 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:44 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:44 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:51:45 UTC] PHP Warning:  Illegal string offset 'username' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:46 UTC] PHP Warning:  Use of undefined constant tipe - assumed 'tipe' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:46 UTC] PHP Warning:  Illegal string offset 'tipe' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:48 UTC] PHP Warning:  Use of undefined constant tipe - assumed 'tipe' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:48 UTC] PHP Warning:  Illegal string offset 'tipe' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:49 UTC] PHP Warning:  Use of undefined constant tipe - assumed 'tipe' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:52:49 UTC] PHP Warning:  Illegal string offset 'tipe' in /home/pitihden/public_html/web_service.php on line 14
+[24-Nov-2019 16:58:38 UTC] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:58:38 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:58:58 UTC] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:59:10 UTC] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 16:59:12 UTC] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[24-Nov-2019 17:00:55 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 15
+[25-Nov-2019 05:15:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 10
+[25-Nov-2019 05:19:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/pitihden/public_html/web_service.php on line 10
+[25-Nov-2019 05:21:07 UTC] PHP Warning:  Use of undefined constant username - assumed 'username' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 17
+[25-Nov-2019 05:26:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/pitihden/public_html/web_service.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/web_service.php on line 5
+[25-Nov-2019 05:28:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/pitihden/public_html/web_service.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/web_service.php on line 12
+[25-Nov-2019 05:32:13 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/pitihden/public_html/web_service.php on line 6
+[25-Nov-2019 05:32:14 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/pitihden/public_html/web_service.php on line 6
+[25-Nov-2019 05:35:04 UTC] PHP Warning:  Creating default object from empty value in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:35:23 UTC] PHP Warning:  Creating default object from empty value in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:35:25 UTC] PHP Warning:  Creating default object from empty value in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:35:26 UTC] PHP Warning:  Creating default object from empty value in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:35:39 UTC] PHP Warning:  Creating default object from empty value in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:40:42 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/pitihden/public_html/web_service.php on line 7
+[25-Nov-2019 05:44:37 UTC] PHP Warning:  Use of undefined constant anggota - assumed 'anggota' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 17
+[25-Nov-2019 05:44:37 UTC] PHP Warning:  Use of undefined constant json - assumed 'json' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/web_service.php on line 17
+[25-Nov-2019 23:28:13 UTC] PHP Parse error:  syntax error, unexpected 'REQUIRE_ONCE' (T_REQUIRE_ONCE) in /home/pitihden/public_html/login.php on line 3
+[25-Nov-2019 23:29:12 UTC] PHP Parse error:  syntax error, unexpected 'REQUIRE_ONCE' (T_REQUIRE_ONCE) in /home/pitihden/public_html/login.php on line 3
+[25-Nov-2019 23:32:45 UTC] PHP Parse error:  syntax error, unexpected 'REQUIRE_ONCE' (T_REQUIRE_ONCE) in /home/pitihden/public_html/login.php on line 3
+[25-Nov-2019 23:35:47 UTC] PHP Parse error:  syntax error, unexpected 'REQUIRE_ONCE' (T_REQUIRE_ONCE) in /home/pitihden/public_html/login.php on line 3
+[25-Nov-2019 23:37:36 UTC] PHP Warning:  Use of undefined constant session - assumed 'session' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/login.php on line 2
+[25-Nov-2019 23:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start() in /home/pitihden/public_html/login.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/login.php on line 2
+[26-Nov-2019 01:04:10 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/pitihden/public_html/pesanFilm.php on line 13
+[26-Nov-2019 02:14:14 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/pitihden/public_html/pesanFilm.php on line 14
+[26-Nov-2019 02:14:20 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/pitihden/public_html/pesanFilm.php on line 14
+[26-Nov-2019 02:17:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/pitihden/public_html/pesanFilm.php on line 14
+[26-Nov-2019 02:26:05 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:26:58 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:27:39 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:28:19 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:28:19 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 23
+[26-Nov-2019 02:28:51 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:28:51 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 23
+[26-Nov-2019 02:29:37 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:29:37 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 23
+[26-Nov-2019 02:30:10 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 22
+[26-Nov-2019 02:30:10 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 23
+[26-Nov-2019 02:31:29 UTC] PHP Warning:  Use of undefined constant id_pesanan - assumed 'id_pesanan' (this will throw an Error in a future version of PHP) in /home/pitihden/public_html/pesanFilm.php on line 20
+[26-Nov-2019 03:07:42 UTC] PHP Parse error:  syntax error, unexpected ']', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/pitihden/public_html/lihat_snack.php on line 7
+[26-Nov-2019 04:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home/pitihden/public_html/lihat_pesanan.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/lihat_pesanan.php on line 2
+[26-Nov-2019 04:40:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home/pitihden/public_html/lihat_pesanan.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/lihat_pesanan.php on line 4
+[26-Nov-2019 04:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home/pitihden/public_html/lihat_pesanan.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/pitihden/public_html/lihat_pesanan.php on line 4
