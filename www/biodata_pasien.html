@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		<title>Biodata Dokter Klinik Gigi+</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	
+	<body>
+		<div data-role="page" id="page-two" data-theme="a">
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<header class="align-center">
+					<h1>Biodata Dokter Klinik Gigi+</h1>
+				</header>
+
+				<div role="main" class="ui-content">
+					<table data-role="table" data-mode="reflow" id="table-detailMhs">
+						<thead>
+							<tr>
+								<th data-priority="1">ID Pasien</th>
+								<th data-priority="1">Nama</th>
+								<th data-priority="2">Alamat</th>
+								<th data-priority="3">Nomor Hp</th>
+								<th data-priority="4">Keluhan</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>AC1342453</td>
+								<td>Anang Bagus Rahmadi</td>
+								<td>JL. Wakanda</td>
+								<td>098242435782</td>
+								<td>Gigi Berlubang</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<div class="ui-grid-a ui-responsive">
+					<div class="ui-block-a"><a class="ui-input-btn ui-btn ui-corner-all ui-shadow" href="#editPasien" data-rel="popup" data-transition="pop" data-position-to="window">Edit</a>
+						<div class="ui-corner-all" id="editPasien" data-role="popup" data-theme="a">
+							<form>
+								<div style="padding:10px 20px;">
+									<h2>Tambah Pasien</h2>
+										<label class="ui-hidden-accessible" for="un">Nama Pasien</label>
+										<input name="namaDokter" id="namaPasien" type="text" placeholder="Nama" value="" data-theme="a">
+										<label class="ui-hidden-accessible" for="un">Alamat Pasien</label>
+										<input name="noSuratIjin" id="alamatPasien" type="text" placeholder="Alamat" value="" data-theme="a">
+										<label class="ui-hidden-accessible" for="un">Nomor Telepon</label>
+										<input name="noTelp" id="noPasien" type="text" placeholder="Nomor Telepon" value="" data-theme="a">
+										<label class="ui-hidden-accessible" for="un">Keluhan</label>
+										<input name="alamat" id="keluhanPasien" type="text" placeholder="Keluhan" value="" data-theme="a">
+										<a class="ui-input-btn ui-btn ui-shadow ui-corner-all" href="#">Tambah</a>
+									</div>
+							</form>						
+						</div>					
+					</div>
+					
+					<div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow" href="#popupHapus" data-rel="popup" data-transition="pop" data-position-to="window">Hapus</a>
+						<div class="ui-corner-all" id="popupHapus" data-role="popup" data-theme="a">
+							<div class="ui-grid-a ui-responsive">
+							<form>
+								<div style="padding:10px 20px;">
+									<h4>Apakah anda Yakin Akan Menghapusnya?</h4>
+									<div class="ui-block-a"><a class="ui-btn ui-corner-all ui-shadow ui-btn-a" href="biodata_pasien.html" target="_self">Batal</a></div>
+									<div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow ui-btn-b" href="pasien.html" target="_self">Hapus</a></div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button href="dokter.html" target="_self">Kembali</button>	
+			</div>				
+		</section>				
+		</div>
+	</body>
+</html> 
+
+
+
+
+

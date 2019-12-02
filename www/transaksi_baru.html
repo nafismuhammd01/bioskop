@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Formlir Tambah Layanan Klinik Gigi A3C</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<a href="index.html" class="logo">KLINIK GIGI A3C</a>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="dokter.html">Dokter</a></li>
+					<li><a href="pasien.html">Pasien</a></li>
+					<li><a href="layanan.html">Layanan</a></li>
+					<li><a href="transaksi.html">Pembayaran</a></li>					
+				</ul>
+			</nav>
+			
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+                            <h1>Tambah Layanan Klinik Gigi A3C</h1>
+					</header>
+					<div class="ui-corner-all" id="popupLogin" data-role="popup" data-theme="a">
+						<form>
+								<label class="ui-hidden-accessible" for="date">Tanggal</label>
+								<input name="date" id="date" type="date" class="form-control" value="" data-theme="a">
+								</form>
+
+								<div class="ui-field-contain mt-4">
+									<label for="select-native-fc">ID Pasien</label>
+									<select name="select-native-fc" id="select-native-fc" class="form-control">
+										<option value="small">One</option>
+										<option value="small">Loro</option>
+										<option value="small">Three</option>
+									</select>
+								</div>
+								
+								<div class="mt-4">
+									<label for="un">Nama Pasien</label>
+								<input  name="nLayanan" id="nLayanan" placeholder="Nama Layanan" value="" class="form-control" >
+								</div>
+								
+								<div class="ui-field-contain mt-4">
+									<label for="select-native-fc">Nama Dokter</label>
+									<select name="select-native-fc" id="select-native-fc" class="form-control">
+										<option value="small">Drg. Aziz Kusworo</option>
+										<option value="small">Drg. Cegy Pradana</option>
+										<option value="small">Drg. Nafis Muhammad</option>
+									</select>
+								</div>
+								
+								<div class="mt-4">
+									<form>
+										<fieldset data-role="controlgroup">
+											<legend>Jenis Layanan</legend>
+											<input name="checkbox-v-2a" id="checkbox-v-2a" type="checkbox">
+											<label for="checkbox-v-2a">Tambal Gigi</label>
+											<input name="checkbox-v-2b" id="checkbox-v-2b" type="checkbox">
+											<label for="checkbox-v-2b">Cabut Gigi</label>
+											<input name="checkbox-v-2c" id="checkbox-v-2c" type="checkbox">
+											<label for="checkbox-v-2c">Pasang Gigi Palsu</label>
+										</fieldset>
+									</form>
+								</div>
+								
+								<div class="">
+									<label class="ui-hidden-accessible" for="un">Total Pembayaran</label>
+								<input name="hLayanan" id="hLayanan"  placeholder="Harga Layanan" value="" data-theme="a" class="form-control">
+								</div>
+
+							</div>
+							<div class="mt-4">
+								<button class="button fit mt-12" type="submit">Tambah</button>
+							</div>
+						</form>
+					</div>
+	</table>
+</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>LAYANAN INFORMASI</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">informasi@3ac.id</a></li>
+						<li><span class="icon fa-map-marker"></span> Jln. Veteran No. 8, Ketawanggede, Kecamatan Lowokwaru, Kota Malang, Jawa Timur 65145</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; A3C Clinic.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

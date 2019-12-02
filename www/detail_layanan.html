@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		<title>Biodata Dokter Klinik Gigi+</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	
+	<body>
+		<div data-role="page" id="page-two" data-theme="a">
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<header class="align-center">
+					<h1>Detail Layanan Klinik Gigi+</h1>
+				</header>
+
+				<div role="main" class="ui-content">
+					<table data-role="table" data-mode="reflow" id="table-detailMhs">
+						<thead>
+							<tr>
+								<th data-priority="1">ID Layanan</th>
+								<th data-priority="1">Nama Layanan</th>
+								<th data-priority="2">Harga Layanan</th>
+								<th data-priority="3">Keterangan</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td>LY65676879</td>
+								<td>Cabut Gigi</td>
+								<td>Rp50.000</td>
+								<td>Harga belum termasuk Obat</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<div class="ui-grid-a ui-responsive">
+					<div class="ui-block-a"><a class="ui-input-btn ui-btn ui-corner-all ui-shadow" href="#editLayanan" data-rel="popup" data-transition="pop" data-position-to="window">Edit</a>
+						<div class="ui-corner-all" id="editLayanan" data-role="popup" data-theme="a">
+							<form>
+								<div style="padding:10px 20px;">
+									<h2>Tambah Layanan</h2>
+										<label class="ui-hidden-accessible" for="un">Nama Layanan</label>
+										<input name="namaDokter" id="namaLayanan" type="text" placeholder="Nama" value="" data-theme="a">
+										<label class="ui-hidden-accessible" for="un">Harga Layanan</label>
+										<input name="noSuratIjin" id="harga" type="text" placeholder="Harga" value="" data-theme="a">
+										<label class="ui-hidden-accessible" for="un">Keterangan</label>
+										<input name="noTelp" id="keterangan" type="text" placeholder="Keterangan" value="" data-theme="a">
+										<a class="ui-input-btn ui-btn ui-shadow ui-corner-all" href="#">Tambah</a>
+									</div>
+							</form>				
+						</div>					
+					</div>
+					
+					<div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow" href="#popupHapus" data-rel="popup" data-transition="pop" data-position-to="window">Hapus</a>
+						<div class="ui-corner-all" id="popupHapus" data-role="popup" data-theme="a">
+							<div class="ui-grid-a ui-responsive">
+							<form>
+								<div style="padding:10px 20px;">
+									<h4>Apakah anda Yakin Akan Menghapusnya?</h4>
+									<div class="ui-block-a"><a class="ui-btn ui-corner-all ui-shadow ui-btn-a" href="detail_layanan.html" target="_self">Batal</a></div>
+									<div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow ui-btn-b" href="layanan.html" target="_self">Hapus</a></div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button href="layanan.html" target="_self">Kembali</button>	
+			</div>				
+		</section>				
+		</div>
+	</body>
+</html> 
+
+
+
+
+
