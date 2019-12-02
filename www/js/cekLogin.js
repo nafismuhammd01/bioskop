@@ -31,10 +31,10 @@ var Application = {
             success: function (data) {
                 console.log(data)
                 if(data=='ok'){
-    				window.location = 'https://www.pitihden.com/home.html';
+    				window.location = 'home.html';
     			}
     			else if(data=='admin'){
-    			    window.location = 'https://www.pitihden.com/admin.html'
+    			    window.location = 'admin.html'
     			}
     			else{
     				alert(data);

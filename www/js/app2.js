@@ -25,7 +25,7 @@ var Application = {
             success: function (data) {
                 console.log(data)
                 if(data=='ok'){
-    				window.location = 'https://www.pitihden.com/snack.html';
+    				window.location = 'snack.html';
     			}
     			else{
     				alert(data);

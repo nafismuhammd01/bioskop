@@ -52,7 +52,7 @@ var Application = {
         },
         initPesanFilm: function (judul,peng,tanggal) {
             $.ajax({
-                url: 'https://www.pitihden.com/pesanFilm.php',
+                url: 'pesanFilm.php',
                 data: 'var_jdl='+judul+'&var_peng='+peng+'&var_tgl='+tanggal, 
                 type: 'post',
                 dataType: 'html',
@@ -65,7 +65,7 @@ var Application = {
                 success: function (data) {
                     console.log(data)
                     if(data=='ok'){
-        				window.location = 'https://www.pitihden.com/pilihjam.html';
+        				window.location = 'pilihjam.html';
         			}
         			else{
         				alert(data);

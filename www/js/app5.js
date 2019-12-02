@@ -7,7 +7,7 @@ var Application = {
                 Application.initDelPesan();
             })
             $(document).on('click', '#back', function () {
-                window.location = 'https://www.pitihden.com/home.html';
+                window.location = 'home.html';
             })
         },
     
@@ -56,7 +56,7 @@ var Application = {
                 success: function (data) {
                     console.log(data)
                     if(data=='ok'){
-        				window.location = 'https://www.pitihden.com/home.html';
+        				window.location = 'home.html';
         			}
         			else{
         				alert(data);

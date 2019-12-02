@@ -193,7 +193,7 @@ var Application = {
                 success: function (data) {
                     console.log(data)
                     if(data=='ok'){
-        				window.location = 'https://www.pitihden.com/tiket.html';
+        				window.location = 'tiket.html';
         			}
         			else{
         				alert(data);

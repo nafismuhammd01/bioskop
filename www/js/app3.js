@@ -54,7 +54,7 @@ var Application = {
                 success: function (data) {
                     console.log(data)
                     if(data=='ok'){
-        				window.location = 'https://www.pitihden.com/kursi.html';
+        				window.location = 'kursi.html';
         			}
         			else{
         				alert(data);
