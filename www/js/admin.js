@@ -1,32 +1,20 @@
 var Application = {
         initApplication: function () {
             $(window).load('pageinit', '#page-one', function () {
-                Application.initShowFilm();
+                Application.initShowPes();
             })
-            $(document).on('click', '#pilih-film', function () {
-                var judul = $(this).data('jdl');
-                var peng = $(this).data('pngr');
-                var tanggal ;
-                if (document.getElementById('25sept').checked) {
-                  tanggal = document.getElementById('25sept').value;
-                }
-                if (document.getElementById('26sept').checked) {
-                  tanggal = document.getElementById('26sept').value;
-                }
-                if (document.getElementById('27sept').checked) {
-                  tanggal = document.getElementById('27sept').value;
-                }
-                
-                Application.initPesanFilm(judul,peng,tanggal);
+            $(document).on('click', '#del', function () {
+                var idpes = $(this).data('idpes');
+                Application.initDeletePesanan(idpes);
             })
             $(document).on('click', '#btnLogOut', function () {   
                 Application.initLogout();
             })
         },
     
-        initShowFilm: function () {
+        initShowPes: function () {
             $.ajax({
-                url: 'https://www.pitihden.com/web_service.php',
+                url: 'https://www.pitihden.com/lihat_semua_pesanan.php',
                 type: 'get',
                 beforeSend: function () {
                     $.mobile.loading('show', {
@@ -37,10 +25,10 @@ var Application = {
                 success: function (dataObject) {
                     console.log(dataObject)
                     for (var i = 0;i < dataObject.length;i++){
-                        var appendList = '<li><a href="" target="_self" data-jdl="'+dataObject[i].judul_film+'" data-pngr="'+dataObject[i].pengarang_film+'" id="pilih-film"><img src="https://www.pitihden.com/img/foto'+(i+1)+'.jpg"style="height:75px; weight:30px; margin: 15px; border-radius: 8px;"><h2>' + dataObject[i].judul_film + '</h2><p>' + dataObject[i].pengarang_film + '</p></a></li>'
-                        $('#list-film').append(appendList);
+                        var appendList = '<li><a href="" target="_self" data-idpes="'+dataObject[i].id_pesanan+'" id="del"><h2>' + dataObject[i].id_pesanan + '</h2><p>' + dataObject[i].judul_pesanan + '</p><p>' + dataObject[i].id_snack + '</p><p>' + dataObject[i].time + '</p><p>' + dataObject[i].tanggal + '</p></a></li>'
+                        $('#list-pes').append(appendList);
                     }
-                    $('#list-film').listview('refresh');
+                    $('#list-pes').listview('refresh');
                 },
                 error: function (e) {
                     console.log(e);
@@ -53,10 +41,10 @@ var Application = {
                 }
             });
         },
-        initPesanFilm: function (judul,peng,tanggal) {
+        initDeletePesanan: function (idpes) {
             $.ajax({
-                url: 'https://www.pitihden.com/pesanFilm.php',
-                data: 'var_jdl='+judul+'&var_peng='+peng+'&var_tgl='+tanggal, 
+                url: 'https://www.pitihden.com/delete_pesanan_admin.php',
+                data: 'var_idpes='+idpes, 
                 type: 'post',
                 dataType: 'html',
                 beforeSend: function () {
@@ -68,7 +56,7 @@ var Application = {
                 success: function (data) {
                     console.log(data)
                     if(data=='ok'){
-        				window.location = 'pilihjam.html';
+        				window.location = 'admin.html';
         			}
         			else{
         				alert(data);

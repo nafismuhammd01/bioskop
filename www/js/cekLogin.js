@@ -12,7 +12,7 @@ var Application = {
         })
         $(document).on('click', '#btnDaftar', function () {
             
-            window.location= 'https://www.pitihden.com/daftar.html';
+            window.location= 'daftar.html';
         })
     },
 
