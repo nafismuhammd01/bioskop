@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Bioskop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script
+  src="https://code.jquery.com/jquery-2.2.1.js"
+  integrity="sha256-eNcUzO3jsv0XlJLveFEkbB8bA7/CroNpNVk3XpmnwHc="
+  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" ></script>
+</head>
+
+<body>
+    <div data-role="page" id="page-one">
+        <div data-role="header">
+            <h1>Tambah Film</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <input type="text" name="judul" placeholder="Judul" id="judul"/>
+            <input type="text" name="pengarang" placeholder="Pengarang" id="pengarang"/>
+            <input type="file" name="foto" value="Foto" id="foto"/>
+            <input type="button" name="tambah" value="TAMBAH" id="btnTambah"/>
+            
+        </div>
+    </div>
+
+    <script src="js/tambahFilm.js" type="text/javascript"></script>
+    <script>Application.initApplication()</script>
+</body>
+</html>
